@@ -8,8 +8,8 @@
     "npm": "8.11.0"
   },
   "scripts": {
-    "start": "SET NODE_ENV=production && node app.js",
-    "dev": "SET NODE_ENV=development && nodemon app.js"
+    "start": "cross-env NODE_ENV=production && node app.js",
+    "dev": "cross-env NODE_ENV=development && nodemon app.js"
   },
   "author": "Satoshiba",
   "license": "ISC",
