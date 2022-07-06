@@ -19,9 +19,9 @@ sequelize.initDb(); // init the database
 
 // endpoints ////////////////////////////////////////////////////////////////////////////
 
-app.get('/', (req, res) => {
-    res.json('Hello, Heroku ! 👋')
-  })
+app.get("/", (req, res) => {
+  res.json("Hello, Heroku ! 👋");
+});
 
 require("./src/routes/findAllStrains")(app);
 require("./src/routes/findStrainByPk")(app);

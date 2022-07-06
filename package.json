@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Premiers pas avec les API écrit en NodeJS par Satoshiba 2022",
   "main": "app.js",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
   "scripts": {
-    "start": "NODE_ENV=production & node app.js",
-    "dev": "NODE_ENV=development & nodemon app.js"
+    "start": "SET NODE_ENV=production & node app.js",
+    "dev": "SET NODE_ENV=development & nodemon app.js"
   },
   "author": "Satoshiba",
   "license": "ISC",
